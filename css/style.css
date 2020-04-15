@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*fine reset*/
+/*inizio header*/
+.header {
+  height: 100px;
+  width: 1245px;
+  background: yellow;
+  right: 1vh;
+  top: 10px;
+  left: 4vh;
+  position: relative;
+  display: block;
+}
+/*fine header */
+/*inizio corpo */
+.bloccouno {
+  height: 29vh;
+  width: 47vh;
+  background: pink;
+  float: right;
+  margin-top: 7px;
+  display: block;
+  right: 2vh;
+  top:18vh;
+  position: absolute;
+}
+.bloccodue {
+  height: 29vh;
+  width: 47vh;
+  background: pink;
+  float: right;
+  top: 50vh;
+  right: 2vh;
+  position: absolute;
+  display: block;
+}
+.bloccotre {
+  height: 62vh;
+  width: 83vh;
+  background: purple;
+  float: right;
+  position: absolute;
+  display: block;
+  top: 18vh;
+  right: 51vh;
+  margin-top: 7px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+.bloccoquattro {
+  height: 50vh;
+  width: 57vh;
+  background: pink;
+  position: absolute;
+  float: left;
+  display: block;
+  left: 4vh;
+  top: 18vh;
+  margin-top: 7px;
+}
+/*fine corpo */
+/*inizio footer*/
+.footer {
+  background: cyan;
+  bottom: 2vh;
+  position: absolute;
+  height: 15vh;
+  width: 193vh;
+  left: 3vh;
+}
+/*fine footer */
