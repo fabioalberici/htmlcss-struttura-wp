@@ -19,6 +19,7 @@ main::after {
   display: table;
   clear: both;
 }
+/*inizio colonna sinistra */
 main .colonnasinistra {
   margin-top: 1%;
   float: left;
@@ -26,11 +27,44 @@ main .colonnasinistra {
   width: 25%;
   height: 400px;
 }
+/*fine colonna sinistra */
+/*inizio colonna centrale */
 main .colonnacentrale {
   margin-top: 1%;
   float: left;
   background: purple;
-  width: 35%;
+  width: 42%;
   height: 500px;
-  margin-left: 1%
+  margin-left: 1%;
+  margin-right: 1%;
+}
+/*fine colonna centrale */
+/*inizio colonna destra */
+main .colonnadestra {
+  margin-top: 1%;
+  float: right;
+  background: white;
+  width: 30%;
+  height: 400px;
+  margin-left: 1%;
+}
+main .boxuno {
+  background: pink;
+  width: 100%;
+  height: 49%;
+  margin-bottom: 1%;
+}
+main .boxdue {
+  background: pink;
+  width: 100%;
+  height: 49%;
+  margin-top: 1%;
+}
+/*fine colonna destra */
+/*inizio footer */
+footer {
+  background: cyan;
+  width: 100%;
+  height: 100px;
+  margin-top: 1%;
 }
